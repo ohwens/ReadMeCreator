@@ -14,21 +14,21 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# TITLE
   ${data.title}
-  
-  ## Description
-  - What was your motivation?
-  ${data.description}
-  
+
   ## Table of Contents (Optional)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
   
+  ## Description
+  ${data.description}
+
+  
   ## Installation
   ${data.installation}
   
-  ## Usage
+  # Usage
   ${data.usage}
   
   For future use:
@@ -36,12 +36,21 @@ function generateMarkdown(data) {
       ---md
       ![alt text](assets/images/screenshot.png)
       ---
-  ## Credits
-  Creators: ${data.contributors}
+
+
+  # Credits
+  Creators:
+  ${data.contributors}
   
-  Resources: ${data.resources}
+  Resources:
+  ${data.resources}
+
+  #Questions
+    Please reach out to ${data.email} with any questions you may have.
+
+    ${'www.github.com/' + data.github}
   
-  ## License
+  # License
   
   For future use:
   If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).

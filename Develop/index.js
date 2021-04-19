@@ -13,27 +13,27 @@ const questions = [
         message: 'What is the Title of your Application?',
       },
       {
-        type: 'input',
+        type: 'editor',
         name: 'description',
         message: 'Please describe your Application. ie: Why did you build it? What problem does it solve? Did you learn anything?',
       },
       {
-        type: 'input',
+        type: 'editor',
         name: 'installation',
         message: 'List any installation Instructions:',
       },
       {
-        type: 'input',
+        type: 'editor',
         name: 'usage',
         message: 'How should the Application be used?',
       },
       {
-        type: 'input',
+        type: 'editor',
         name: 'contributors',
         message: 'Who contributed to building your Application?',
       },
       {
-        type: 'input',
+        type: 'editor',
         name: 'resources',
         message: 'What third party resources did you use?',
       },
