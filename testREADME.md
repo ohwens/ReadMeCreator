@@ -1,40 +1,34 @@
-# TITLE
-    asdfasd
+#Project 2
+
+    ----
   
-    ## Table of Contents (Optional)
+    ## Table of Contents
     - [Installation](#installation)
     - [Usage](#usage)
     - [Credits](#credits)
     - [License](#license)
     
     ### Description
-    fweaswef
+    it helps create READMEs for future development use
   
     
     ### Installation
-    sdvadsv
+    steps 1 - 5
     
     ### Usage
-    waefas
-    
-    For future use:
-    To add a screenshot, create an (assets/images) folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-        ---md
-        ![alt text](assets/images/screenshot.png)
-        ---
-  
-  
+    node index.js
+      
     ### Credits
     Creators:
-    cxczv
+    me
     
     Resources:
-    wqefaas
+    all of them
   
     ### Questions
-      Please reach out to asdasdf with any questions you may have.
+      Please reach out to rtowens11@gmail.com with any questions you may have.
   
-      www.github.com/awefasd
+      www.github.com/ohwens
     
     ### License
     MIT TEXT GOES HERE
