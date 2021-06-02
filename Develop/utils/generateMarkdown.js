@@ -59,14 +59,14 @@ function generateMarkdown(data) {
     - [Credits](#credits)
     - [License](#license)
     
-    ## Description
+    ### Description
     ${data.description}
   
     
-    ## Installation
+    ### Installation
     ${data.installation}
     
-    # Usage
+    ### Usage
     ${data.usage}
     
     For future use:
@@ -76,19 +76,19 @@ function generateMarkdown(data) {
         ---
   
   
-    # Credits
+    ### Credits
     Creators:
     ${data.contributors}
     
     Resources:
     ${data.resources}
   
-    #Questions
+    ### Questions
       Please reach out to ${data.email} with any questions you may have.
   
       ${'www.github.com/' + data.github}
     
-    # License
+    ### License
     MIT TEXT GOES HERE
     
     For future use:

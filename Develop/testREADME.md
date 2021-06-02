@@ -1,5 +1,5 @@
 # TITLE
-    Test App 1
+    asdfasd
   
     ## Table of Contents (Optional)
     - [Installation](#installation)
@@ -7,15 +7,15 @@
     - [Credits](#credits)
     - [License](#license)
     
-    ## Description
-    A auto-generating README will be helpful in my development career.
+    ### Description
+    fweaswef
   
     
-    ## Installation
-    1. step 1 2. step 2 3. step 3
+    ### Installation
+    sdvadsv
     
-    # Usage
-    run index.js from command line interface
+    ### Usage
+    waefas
     
     For future use:
     To add a screenshot, create an (assets/images) folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -24,19 +24,19 @@
         ---
   
   
-    # Credits
+    ### Credits
     Creators:
-    all me :)
+    cxczv
     
     Resources:
-    inquirer and general google-fu
+    wqefaas
   
-    #Questions
-      Please reach out to rtowens11@gmail.com with any questions you may have.
+    ### Questions
+      Please reach out to asdasdf with any questions you may have.
   
-      www.github.com/ohwens
+      www.github.com/awefasd
     
-    # License
+    ### License
     MIT TEXT GOES HERE
     
     For future use:
