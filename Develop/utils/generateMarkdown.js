@@ -1,8 +1,7 @@
 function generateMarkdown(data) {
 
-  if (data.license === 'MIT') {
-    return `#${data.title}
-
+  // if (data.license === 'MIT') {
+    return `# ${data.title}
     ----
   
     ## Table of Contents
@@ -13,8 +12,7 @@ function generateMarkdown(data) {
     
     ### Description
     ${data.description}
-  
-    
+      
     ### Installation
     ${data.installation}
     
@@ -41,49 +39,49 @@ function generateMarkdown(data) {
     
     `;
 
-  } else {
+  // } else {
 
-    return `#${data.title}
+  //   return `#${data.title}
 
-    ----
+  //   ----
   
-    ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
+  //   ## Table of Contents
+  //   - [Installation](#installation)
+  //   - [Usage](#usage)
+  //   - [Credits](#credits)
+  //   - [License](#license)
     
-    ### Description
-    ${data.description}
+  //   ### Description
+  //   ${data.description}
   
     
-    ### Installation
-    ${data.installation}
+  //   ### Installation
+  //   ${data.installation}
     
-    ### Usage
-    ${data.usage}
+  //   ### Usage
+  //   ${data.usage}
       
-    ### Credits
-    Creators:
-    ${data.contributors}
+  //   ### Credits
+  //   Creators:
+  //   ${data.contributors}
     
-    Resources:
-    ${data.resources}
+  //   Resources:
+  //   ${data.resources}
   
-    ### Questions
-      Please reach out to ${data.email} with any questions you may have.
+  //   ### Questions
+  //     Please reach out to ${data.email} with any questions you may have.
   
-      ${'www.github.com/' + data.github}
+  //     ${'www.github.com/' + data.github}
     
-    ### License
-    GNU TEXT GOES HERE
+  //   ### License
+  //   GNU TEXT GOES HERE
     
-    For future use:
-    If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+  //   For future use:
+  //   If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
     
-    `;
+  //   `;
 
-  }
+  // }
 
 }
 
