@@ -13,27 +13,27 @@ const questions = [
         message: 'What is the Title of your Application?',
       },
       {
-        type: 'editor',
+        type: 'input',
         name: 'description',
         message: 'Please describe your Application. ie: Why did you build it? What problem does it solve? Did you learn anything?',
       },
       {
-        type: 'editor',
+        type: 'input',
         name: 'installation',
         message: 'List any installation Instructions:',
       },
       {
-        type: 'editor',
+        type: 'input',
         name: 'usage',
         message: 'How should the Application be used?',
       },
       {
-        type: 'editor',
+        type: 'input',
         name: 'contributors',
         message: 'Who contributed to building your Application?',
       },
       {
-        type: 'editor',
+        type: 'input',
         name: 'resources',
         message: 'What third party resources did you use?',
       },
@@ -51,7 +51,7 @@ const questions = [
         type: 'rawlist',
         name: 'license',
         message: 'Choose a license:',
-        choices: ['MIT', 'GNU GPLv3' ]
+        choices: ['MIT', 'GNU GPLv3'] 
       }    
 ];
 
