@@ -1,5 +1,5 @@
-# test page 123
-## Badge: 
+# Page 1
+## Badge: ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Table of Contents:
   1. [Description](#description)
   2. [Installation](#installation)
@@ -11,19 +11,19 @@
   8. [Test](#test)
   9. [Questions](#questions)
 ## Description:
-I'm just learning how to code bro
+what why how
 ## Installation:
-clone repo, npm init, npm intall, node index.js
+step1 step2
 ## Usage:
-run the app, answer the questions
+go
 ## Credits:
-lots of googling
+google fu
 ## Licenses:
-1. Your Badge: 
-2. Your Badge link: 
-3. Your Badge Readme: N/A
+1. Your Badge: ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+2. Your Badge link: <a href = "https://opensource.org/licenses/MIT">License Link</a>
+3. Your Badge Readme: <a href = "https://gist.github.com/ckib16/8732561535ed766cd6b8">MIT Guide</a>
 ## Features:
-not too many features, inquirer and node.js
+feature1 feature2
 ## Contribute:
 n/a
 ## Test:
