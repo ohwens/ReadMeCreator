@@ -1,4 +1,4 @@
-# Page 1
+# ReadMeCreator
 ## Badge: ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Table of Contents:
   1. [Description](#description)
@@ -8,27 +8,24 @@
   5. [License](#license)
   6. [Features](#features)
   7. [Contirbute](#contribute)
-  8. [Test](#test)
-  9. [Questions](#questions)
+  8. [Questions](#questions)
 ## Description:
-what why how
+This application is desgined to create a ReadMe markdown based upon user input so that future projects can have simple and reproducalbe ReadMe(s).
 ## Installation:
-step1 step2
+Clone the repo, NPM Init, NPM install, node index.js
 ## Usage:
-go
+Its pretty simple, run 'node index.js' then fill out the prompts
 ## Credits:
-google fu
+Lots of Google Fu
 ## Licenses:
 1. Your Badge: ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 2. Your Badge link: <a href = "https://opensource.org/licenses/MIT">License Link</a>
 3. Your Badge Readme: <a href = "https://gist.github.com/ckib16/8732561535ed766cd6b8">MIT Guide</a>
 ## Features:
-feature1 feature2
+node.js, javascript, npm package inquirer
 ## Contribute:
-n/a
-## Test:
-n/a
+no collaboration is requested at this time
 ## Questions:
-1. Please click the link for Github: <a href = "https://github.com/ohwens">My Github Site</a>
+1. Please click the link for Github: <a href = "https://github.com/undefined">My Github Site</a>
 2. Please click the link for my Website: <a href = "n/a">My Website</a>
-3. Email: n/a 
+3. Email: rtowens11@gmail.com 

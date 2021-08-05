@@ -9,17 +9,17 @@ const questions =  [
     {
         type: 'input', 
         name: 'title',
-        message: 'Title of your page'
+        message: 'What is the name of your Application?'
     },
     {
         type: 'input', 
         name: 'description',
-        message: 'Provide a short description explaining the what, why, and how of your project.'
+        message: 'Provide a short description of your Application.'
     },
     {
         type: 'input', 
         name: 'installation',
-        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.'   
+        message: 'Provide a step-by-step description of how to get the development environment running.'   
     },
     {
         type: 'input', 
@@ -29,42 +29,37 @@ const questions =  [
     {
         type: 'input', 
         name: 'credits',
-        message: 'List your collaborators, if any, with links to their GitHubProvide instructions and examples for use.'            
+        message: 'List your collaborators, if any.'            
     },
     {
         type: 'checkbox', 
         name: 'license',
         choices: ["MIT", "GPLv3", "IBM", "Apache"],
-        message: 'Pick your License.'            
+        message: 'Pick your License, select with spacebar, navigate with arrow keys.'            
     },
     {
         type: 'input', 
         name: 'features',
-        message: 'If your project has a lot of features, list them here.'            
+        message: 'What features, packages, technology did you use?'            
     },
     {
         type: 'input', 
         name: 'contribute',
-        message: 'If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.'            
+        message: 'How can others contribute to this Project?'            
     },
     {
         type: 'input', 
-        name: 'test',
-        message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.'            
-    },
-    {
-        type: 'input', 
-        name: 'questions',
+        name: 'question1',
         message: 'Enter your Github ID'            
     },
     {
         type: 'input', 
-        name: 'questions2',
+        name: 'question2',
         message: 'Enter your full website address including http(s)://'            
     },
     {
         type: 'input', 
-        name: 'questions3',
+        name: 'question3',
         message: 'Enter your email address'            
     },
 ]
@@ -75,7 +70,7 @@ function writeToFile(fileName, data) {
         if(err) {
             return console.error(err) 
         } else {
-            console.log("Successful writing to " + fileName);
+            console.log("Writing to " + fileName + " SUCCESSFUL");
         }
 
     })    

@@ -72,8 +72,7 @@ function generateMarkdown(data) {
   5. [License](#license)
   6. [Features](#features)
   7. [Contirbute](#contribute)
-  8. [Test](#test)
-  9. [Questions](#questions)
+  8. [Questions](#questions)
 ## Description:
 ${data.description}
 ## Installation:
@@ -90,12 +89,10 @@ ${data.credits}
 ${data.features}
 ## Contribute:
 ${data.contribute}
-## Test:
-${data.test}
 ## Questions:
-1. Please click the link for Github: <a href = "https://github.com/${data.questions}">My Github Site</a>
-2. Please click the link for my Website: <a href = "${data.questions2}">My Website</a>
-3. Email: ${data.questions3} 
+1. Please click the link for Github: <a href = "https://github.com/${data.questions1}">My Github Site</a>
+2. Please click the link for my Website: <a href = "${data.question2}">My Website</a>
+3. Email: ${data.question3} 
 `;
 }
 
